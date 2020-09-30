@@ -17,6 +17,7 @@
 		5C355C50251C0E8000CB7C9D /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C355C4F251C0E8000CB7C9D /* Articles.swift */; };
 		5C8FC288251D125E0073935A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8FC287251D125E0073935A /* Login.storyboard */; };
 		5C8FC28B251D12830073935A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8FC28A251D12830073935A /* LoginViewController.swift */; };
+		5C94A7202525341D002B05A8 /* ApolloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C94A71F2525341D002B05A8 /* ApolloUITests.swift */; };
 		5CEC1E26250B0FC000CD5081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC1E25250B0FC000CD5081 /* AppDelegate.swift */; };
 		5CEC1E28250B0FC000CD5081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC1E27250B0FC000CD5081 /* SceneDelegate.swift */; };
 		5CEC1E2A250B0FC000CD5081 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC1E29250B0FC000CD5081 /* ContentView.swift */; };
@@ -35,6 +36,16 @@
 		5CEC1E4F250B297C00CD5081 /* RecoverPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC1E4E250B297C00CD5081 /* RecoverPasswordView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5C94A7222525341D002B05A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CEC1E1A250B0FC000CD5081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEC1E21250B0FC000CD5081;
+			remoteInfo = Apollo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5C0EC1A0251A9EA200520CD9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		5C0EC1A4251AA0E900520CD9 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
@@ -45,6 +56,9 @@
 		5C355C4F251C0E8000CB7C9D /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		5C8FC287251D125E0073935A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		5C8FC28A251D12830073935A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Apollo/Assets.xcassets/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		5C94A71D2525341D002B05A8 /* ApolloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C94A71F2525341D002B05A8 /* ApolloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloUITests.swift; sourceTree = "<group>"; };
+		5C94A7212525341D002B05A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CEC1E22250B0FC000CD5081 /* Apollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEC1E25250B0FC000CD5081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CEC1E27250B0FC000CD5081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +80,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5C94A71A2525341D002B05A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CEC1E1F250B0FC000CD5081 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,10 +123,20 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		5C94A71E2525341D002B05A8 /* ApolloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C94A71F2525341D002B05A8 /* ApolloUITests.swift */,
+				5C94A7212525341D002B05A8 /* Info.plist */,
+			);
+			path = ApolloUITests;
+			sourceTree = "<group>";
+		};
 		5CEC1E19250B0FC000CD5081 = {
 			isa = PBXGroup;
 			children = (
 				5CEC1E24250B0FC000CD5081 /* Apollo */,
+				5C94A71E2525341D002B05A8 /* ApolloUITests */,
 				5CEC1E23250B0FC000CD5081 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				5CEC1E22250B0FC000CD5081 /* Apollo.app */,
+				5C94A71D2525341D002B05A8 /* ApolloUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,6 +217,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5C94A71C2525341D002B05A8 /* ApolloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C94A7262525341D002B05A8 /* Build configuration list for PBXNativeTarget "ApolloUITests" */;
+			buildPhases = (
+				5C94A7192525341D002B05A8 /* Sources */,
+				5C94A71A2525341D002B05A8 /* Frameworks */,
+				5C94A71B2525341D002B05A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C94A7232525341D002B05A8 /* PBXTargetDependency */,
+			);
+			name = ApolloUITests;
+			productName = ApolloUITests;
+			productReference = 5C94A71D2525341D002B05A8 /* ApolloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		5CEC1E21250B0FC000CD5081 /* Apollo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CEC1E36250B0FC100CD5081 /* Build configuration list for PBXNativeTarget "Apollo" */;
@@ -211,10 +261,14 @@
 		5CEC1E1A250B0FC000CD5081 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1170;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Enrique Gongora";
 				TargetAttributes = {
+					5C94A71C2525341D002B05A8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 5CEC1E21250B0FC000CD5081;
+					};
 					5CEC1E21250B0FC000CD5081 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -237,11 +291,19 @@
 			projectRoot = "";
 			targets = (
 				5CEC1E21250B0FC000CD5081 /* Apollo */,
+				5C94A71C2525341D002B05A8 /* ApolloUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5C94A71B2525341D002B05A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CEC1E20250B0FC000CD5081 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +318,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5C94A7192525341D002B05A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C94A7202525341D002B05A8 /* ApolloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CEC1E1E250B0FC000CD5081 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +356,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5C94A7232525341D002B05A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CEC1E21250B0FC000CD5081 /* Apollo */;
+			targetProxy = 5C94A7222525341D002B05A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		5CEC1E30250B0FC100CD5081 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -298,6 +376,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5C94A7242525341D002B05A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8B9LKFKJY;
+				INFOPLIST_FILE = ApolloUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquegongora.ApolloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Apollo;
+			};
+			name = Debug;
+		};
+		5C94A7252525341D002B05A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8B9LKFKJY;
+				INFOPLIST_FILE = ApolloUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquegongora.ApolloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Apollo;
+			};
+			name = Release;
+		};
 		5CEC1E34250B0FC100CD5081 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -457,6 +575,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5C94A7262525341D002B05A8 /* Build configuration list for PBXNativeTarget "ApolloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C94A7242525341D002B05A8 /* Debug */,
+				5C94A7252525341D002B05A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5CEC1E1D250B0FC000CD5081 /* Build configuration list for PBXProject "Apollo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -13,7 +13,6 @@ struct PageViewController: UIViewControllerRepresentable {
     var controllers: [UIViewController]
     @Binding var currentPage: Int
     
-    
     // MARK: - Methods
     // This will initialize the controller that will be used in our SwiftUI app. It will return a UIPageViewController
     func makeUIViewController(context: Context) -> UIPageViewController {
@@ -89,5 +88,11 @@ struct PageViewController: UIViewControllerRepresentable {
                 parent.currentPage = index
             }
         }
+    }
+}
+
+struct PageViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }
